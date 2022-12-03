@@ -1,0 +1,26 @@
+
+.bodyInfo
+{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    background-color: rgb(149 139 139 / 14%);
+}
+
+.icon
+{
+    color: #3e497a;
+    padding: 1.3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.icon svg 
+{
+    width: 3.5rem;
+}
+
