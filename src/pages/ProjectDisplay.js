@@ -15,7 +15,7 @@ const ProjectDisplay = () => {
         <p>
            <b> Technology Used: </b> {project.skills}
         </p>
-        <a href={project.link} target="_blank" >
+        <a href={project.link} >
             <GitHubIcon />
         </a>
     </div>
