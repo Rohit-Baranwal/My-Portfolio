@@ -1,40 +1,44 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "../styles/ContactForm.css"
 
 const ContactForm = () => {
 
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+    // const [name, setName] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [message, setMessage] = useState("");
 
   return (
     <div className='contactform'>
-        <form className='forms'>
+        <form className='forms'
+              action='https://formspree.io/f/mdojqggz' 
+              method='POST' >
             <div className='form-group' >
                 <label htmlFor='name'>Your Name:</label>
                 <input type="text" 
                        id='name' 
                        name='name' 
-                       value={name} 
-                       onChange={(e) => setName(e.target.value)} 
+                       placeholder="User Name"
+                       autoComplete='off'
+                       required 
                        />
             </div>
             <div className='form-group' >
                 <label htmlFor='email'>Your Email:</label>
                 <input type="text" 
                        id='email' 
-                       name='email' 
-                       value={email} 
-                       onChange={(e) => setEmail(e.target.value)} 
+                       name='email'  
+                       placeholder="Your Email"
+                       autoComplete="off"
+                       required 
                        />
             </div>
             <div className='form-group' >
                 <label htmlFor='message'>Your Message:</label>
                 <textarea type="text" 
                        id='message' 
-                       name='message' 
-                       value={message} 
-                       onChange={(e) => setMessage(e.target.value)} 
+                       name='message'
+                       autoComplete="off"
+                       required 
                        />
             </div>
             <button type='submit' >Send</button>
