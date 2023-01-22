@@ -39,7 +39,7 @@ const Home = () => {
             <li className='item'>
               <h2>Languages</h2>
               <span>
-                Core Java, SQL, DBMS, ReactJS
+                Core Java, SQL, DBMS, ReactJS, JavaScript
               </span>
             </li>
           </ol>
