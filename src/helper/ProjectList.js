@@ -25,10 +25,10 @@ export const projectList = [
     ,
     {
         id: 2,
-        name: "IOT Based Smart Cart",
+        name: "Smart Shopping Cart with Raspberry Pi and Weighing Scale",
         image: pro04,
-        skills: "Arduino, NodeMCU, C Programming, My-SQL, ReactJS, HTML, CSS, JavaSript",
-        link: "", 
+        skills: "Python, Python-GUI, My-SQL",
+        link: "https://github.com/Rohit-Baranwal/Smart-Shopping-Cart-using-raspberry-pi", 
     }
     ,
     {
@@ -36,7 +36,7 @@ export const projectList = [
         name: "Arduino Based Health monitoring system",
         image: pro05,
         skills: "Arduino, NodeMCU, C Programming",        
-        link: "",
+        link: "https://github.com/Rohit-Baranwal/",
     }
     , 
     {
@@ -44,7 +44,7 @@ export const projectList = [
         name: "Arduino Based Smart Irrigation System",
         image: pro06, 
         skills: "Arduino, C programming",
-        link: "",
+        link: "https://github.com/Rohit-Baranwal/",
     }
     ,
     {
