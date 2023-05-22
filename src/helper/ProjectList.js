@@ -25,7 +25,7 @@ export const projectList = [
     ,
     {
         id: 2,
-        name: "Smart Shopping Cart with Raspberry Pi and Weighing Scale",
+        name: "Smart Shopping Cart with Raspberry Pi",
         image: pro04,
         skills: "Python, Python-GUI, My-SQL",
         link: "https://github.com/Rohit-Baranwal/Smart-Shopping-Cart-using-raspberry-pi", 
