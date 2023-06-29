@@ -13,7 +13,7 @@ const Contact = () => {
       </div>
       <div className='middle'>
         <div className='left'>
-          <ContactInfoItem icon={<Phone />} text="+91 XXXXX XXXXX" />
+          <ContactInfoItem icon={<Phone />} text="+91 90762 65887" />
           <ContactInfoItem icon={<Email />} text="rohit.baranwal2020@gmail.com" />
           <ContactInfoItem icon={<LocationCityRounded />} text="Mumbai, Maharashtra" />
         </div>

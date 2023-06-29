@@ -31,9 +31,9 @@ const Home = () => {
               </span>
             </li>
             <li className='item'>
-              <h2>Back-end</h2>
+              <h2>Databases</h2>
               <span>
-                ExpressJS, MySQL, MongoDB, MS-SQL
+                 MySQL, MongoDB, MS-SQL
               </span>
             </li>
             <li className='item'>
