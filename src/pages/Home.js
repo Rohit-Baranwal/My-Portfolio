@@ -31,15 +31,15 @@ const Home = () => {
               </span>
             </li>
             <li className='item'>
-              <h2>Databases</h2>
+              <h2>Backend</h2>
               <span>
-                 MySQL, MongoDB, MS-SQL
+                 NodeJS, MySQL, MongoDB, MS-SQL
               </span>
             </li>
             <li className='item'>
               <h2>Languages</h2>
               <span>
-                Core Java, SQL, DBMS, ReactJS, JavaScript
+                Java, C#, DBMS, ReactJS, JavaScript
               </span>
             </li>
           </ol>
