@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from "react-router-dom"
 import { projectList } from '../helper/ProjectList';
-import GitHubIcon from '@material-ui/icons/GitHub';
+//import GitHubIcon from '@material-ui/icons/GitHub';
 import "../styles/ProjectDisplay.css"
 
 const ProjectDisplay = () => {
@@ -15,8 +15,9 @@ const ProjectDisplay = () => {
         <p>
            <b> Technology Used: </b> {project.skills}
         </p>
-        <a href={project.link} >
-            <GitHubIcon />
+        <a href={project.link} target='_blank'>
+            {/* <GitHubIcon /> */}
+            <button type='submit' > Get Code <span className='sp'>→</span> </button>
         </a>
     </div>
     )

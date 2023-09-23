@@ -22,7 +22,7 @@
 }
 
 .project p {
-  width: 60%;
+  width: 80%;
   font-size: 40px;
   color: #3e497a;
 }
@@ -34,4 +34,27 @@
   cursor: pointer;
 }
 
+.project button {
+    background-color: #3e497a;
+    color: white;
+    font-size: 1.8rem;
+    display: inline-block;
+    outline: none;
+    border: #201e86;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 0.6rem;
+}
 
+.project button:hover {
+    cursor: pointer;
+    .sp {
+      margin-left: 5px;
+      transition: 0.2s;
+    }
+}
+/* 
+.project button span:hover {
+  transition: 0.2s;
+  margin-left: 3px;
+} */
