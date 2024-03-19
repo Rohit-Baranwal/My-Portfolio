@@ -33,13 +33,13 @@ const Home = () => {
             <li className='item'>
               <h2>Backend: </h2>
               <span>
-                 NodeJS, MySQL, MongoDB, MS-SQL, DBMS
+                 ASP.NET, ASP.NET MVC, MySQL, MongoDB, MS-SQL, DBMS
               </span>
             </li>
             <li className='item'>
               <h2>Languages: </h2>
               <span>
-                Java, C#, DBMS, ReactJS, JavaScript, Windows Form, Socket.IO
+                Java, C#, DBMS, ReactJS, JavaScript, Windows Form, Socket Programming
               </span>
             </li>
           </ol>
